@@ -1,0 +1,6 @@
+# The VO tool's environment on Linux x86-64 (used for the SLR-water runs, dk_slr2_fvt_raw): Python 3.11, numpy 1.26.4,
+# opencv-python-headless 4.10.0.84 (bundled FFmpeg avcodec 59.37; the macOS arm64 wheel has 60.3, whose decoding differs).
+# On a Mac: colima with Rosetta; build and run with --platform linux/amd64 (see run_x86.sh).
+FROM python:3.11-slim
+RUN pip install --no-cache-dir numpy==1.26.4 opencv-python-headless==4.10.0.84 scipy==1.13.1
+WORKDIR /work

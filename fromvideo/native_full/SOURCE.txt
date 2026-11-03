@@ -1,0 +1,5 @@
+artifacts/inputs/native_full_band_test_raw (all 8 wide test clips, NF_BAND=1) and native_full_test_raw (092 097 101 103 105).
+The functions the --native-full command runs, cut unchanged from commit 5527093 (25.10.2026; without NF_BAND it computes what commit
+7e2a8ed computed). Recomputed from the videos on the Mac (/usr/bin/python3 3.9.6, numpy 1.26.4, opencv-python 4.10.0): 13/13 files
+byte for byte equal to artifacts/inputs.
+FVT_RAW=test_v5_raw NF_CLIPS=CLIPS [NF_BAND=1] NFT_OUT=OUT python tools/lookout_combo/native_full.py --native-full

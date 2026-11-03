@@ -1,0 +1,5 @@
+# Pinned environment for tools/lookout_vo.py (MaCVi LOOKOUT challenge submission).
+# Python 3.11. All reported results were produced with exactly these versions.
+numpy==1.26.4
+opencv-python-headless==4.10.0.84
+scipy==1.13.1

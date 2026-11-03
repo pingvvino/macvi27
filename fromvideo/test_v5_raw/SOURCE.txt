@@ -1,0 +1,3 @@
+artifacts/inputs/test_v5_raw, test_v5_predictions (8 wide test clips). Commit dddbd4f (11.10.2026). x86-64 cloud.
+python tools/lookout_vo.py --dataset TEST/release_manifest.json --clips CLIP --method adaptive --save-raw --full-res --output fullres_test
+python tools/lookout_vo.py --dataset TEST/release_manifest.json --clips CLIP --method adaptive --save-raw --speed-from fullres_test --speed-from-modes wide --output test_v5

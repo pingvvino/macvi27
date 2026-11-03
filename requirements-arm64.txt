@@ -1,0 +1,3 @@
+# arm64 (Apple silicon, macOS): the environment that produced the uploaded file (Python 3.13.7 from python.org).
+# reproduce.sh needs numpy only.
+numpy==2.4.6

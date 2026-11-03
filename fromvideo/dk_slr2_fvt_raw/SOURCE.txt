@@ -1,0 +1,3 @@
+artifacts/inputs/dk_slr2_fvt_raw, clips 093 094 095 096 098 099 107 108 109 111. Commit b2976ba (23.10.2026; bfc825c has the same files).
+x86-64 container (tools/lookout_combo/docker/Dockerfile.x86), WaSR-SLR maps from notebooks/lookout_wasr_slr_flirvis_colab.ipynb.
+LOOKOUT_WATER_MASK_DIR=MAPS python tools/lookout_vo.py --dataset TEST/release_manifest.json --clips CLIP --method adaptive --save-raw --output OUT

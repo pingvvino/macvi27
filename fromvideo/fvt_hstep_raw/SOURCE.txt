@@ -1,0 +1,2 @@
+artifacts/inputs/fvt_hstep_raw (11 flir-VIS test clips). Commit 55500ab (14.10.2026). x86-64 cloud.
+python tools/lookout_vo.py --dataset TEST/release_manifest.json --clips CLIP --method adaptive --save-raw --output OUT

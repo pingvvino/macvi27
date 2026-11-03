@@ -1,0 +1,4 @@
+artifacts/flowmodel_features (CNN input features of every dev and test clip). Built on 27.10.2026 with these two scripts from the
+work directory of that day, on the tool's raws of the dev and test clips (dev: with the GPS target), importing the
+development repository's tools/lookout_combo/error_breakdown.py of that day. Not re-run.
+python flowmodel/flowmodel_build_all.py PROF_ALL OUT

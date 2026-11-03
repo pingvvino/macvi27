@@ -1,0 +1,1 @@
+artifacts/inputs/dk_slr2_fvt_raw, clip 104. Commit 492caaa (21.10.2026). Same container and command as dk_slr2_fvt_raw.

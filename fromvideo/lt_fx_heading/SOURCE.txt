@@ -1,0 +1,3 @@
+artifacts/inputs/lt_half_fx_test, lt_ba_fx2_test (11 flir-VIS test clips): E16 and BA heading with the boat-fixed areas masked.
+Commit 8ee59d1 (16.10.2026). x86-64 cloud. tools/lookout_combo/e16_course.py --save-tracks -> fixed_tracks.py (rule still) ->
+e16_course.py --fixed-from; BA cache by course_combo.ba_fixed.
